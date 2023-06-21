@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;400 & display=swap');
+@import url('https://fonts.googleapis.com/css2? familia= Roboto:peso@700 & display=swap');
+
+:root {
+    --color-celeste: #34CCBF;
+    --color-amarrillo: #EABB0B;
+    --color-rosa: #F2D1EC;
+   
+    
+}
+
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: #0F0E0F;
+}
+
+header{
+    margin: 2rem auto ;
+    padding: 1rem 0;
+}
+
+/*MENU DE NAVEGACION*/
+
+.nav-flex-container{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 10px;
+        
+    }
+
+.caja{
+    background-color: transparent;
+    border: 0.125em solid;
+    border-radius: 0.625em;
+    cursor: pointer;
+    width: 8.75em;
+    height: 150px;
+    margin: 1.25em;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
+
+.img-nav{
+    background: transparent;
+    display: block;
+}
+
+.caja a{
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja.uno {
+    border-color: var(--color-celeste);
+    box-shadow: 0 0 2.5em 2.5em var(--color-celeste) inset;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .caja.uno:hover {
+    box-shadow: 0 0 0.625em 0 var(--color-celeste) inset, 0 0 0.625em 0.25em var(--color-celeste);
+  }
+  
+  .caja.dos {
+      border-color: var(--color-amarrillo);
+      box-shadow: 0 0 2.5em 2.5em var(--color-amarrillo) inset;
+      transition: box-shadow 0.2s ease-in-out;
+    }
+    
+    .caja.dos:hover {
+      box-shadow: 0 0 0.625em 0 var(--color-amarrillo) inset, 0 0 0.625em 0.25em var(--color-amarrillo);
+    }
+  
+    .caja.tres{
+      border-color: var(--color-rosa);
+      box-shadow: 0 0 2.5em 2.5em var(--color-rosa) inset;
+      transition: box-shadow 0.2s ease-in-out;
+    }
+    
+    .caja.tres:hover {
+      box-shadow: 0 0 0.625em 0 var(--color-rosa) inset, 0 0 0.625em 0.25em var(--color-rosa );
+    }
+  
+  
+    /*logo y titulo*/
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    border: 15px ;
+}
+
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ /*Presentación*/
+
+.acercade{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: none;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    display: flex;
+
+    /*color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: none;
+    margin: 2rem auto ;
+    padding: 1rem 0;
+    
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;*/
+}
+
+.acercade.prese{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hb{
+    margin: 2rem auto ;
+    padding: 1rem 0;
+}
+
+
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    display: block;
+    text-align: center;
+    margin: 2rem auto ;
+    padding: 1rem 0;
+}
+
+ /*Grid con habilidades*/
+
+.hab-flex-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+.caje {
+    
+    margin: 15px;
+    line-height: 100px;
+    text-align: center;
+    background:none;  
+}
+
+.caje p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+
+}
+
+
+
+
